@@ -99,7 +99,7 @@ function NoteDetail() {
           onClick={() => navigate(-1)}
           className="px-3 py-1 rounded-md bg-gray-200 hover:bg-gray-300 transition"
         >
-          ←
+          Atras
         </button>
         <h1 className="text-xl font-bold text-gray-800">Detalles del Apunte</h1>
         <div></div>
@@ -127,7 +127,7 @@ function NoteDetail() {
               <button className="border border-primary text-primary px-4 py-2 rounded-md hover:bg-primary/10 transition">
                 Comentar
               </button>
-              {/* ⭐️ Integración del Botón de Favorito en el detalle ⭐️ */}
+              {/* ⭐️ Integración del Botón de Favorito en el detalle */}
               <DetailFavoriteButton noteId={noteId} /> 
             </div>
 

@@ -82,7 +82,7 @@ function NotesView() {
           onClick={() => navigate(-1)}
           className="px-3 py-1 rounded-md bg-gray-200 hover:bg-gray-300 transition"
         >
-          ←
+          Atras
         </button>
         <h1 className="text-xl font-bold text-gray-800">Apuntes</h1>
         <div></div>
